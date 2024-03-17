@@ -4,6 +4,6 @@
 #SBATCH -p cp1 
 #SBTACH -J pdes
 
-source activate agat
+source activate pdes
 
 yhrun python main.py

@@ -2,8 +2,6 @@
 
 This repository contains Python scripts that implement backward stochastic differential equations (BSDEs) solutions to several partial differential equations in high dimension using Pytorch.  We making an analogy between the BSDE and reinforcement learning with the gradient of the solution playing the role of the policy function, and the loss function given by the error between the prescribed terminal condition and the solution of the BSDE.
 
-
-
 ## Quick start
 
 #### Install with environment
@@ -43,11 +41,11 @@ model.solve()
 
 #### Example 
 
-==The Allen Cahn equation== is a mathematical model that describes the evolution of an interface during a phase transition. This equation is especially suitable for simulating the interfacial dynamics in nonlinear systems, such as phase transformation in alloys and morphological changes of biofilms. It is a typical nonlinear partial differential equation, which can describe the transition from a uniform state to a non-uniform state.
+**The Allen Cahn equation** is a mathematical model that describes the evolution of an interface during a phase transition. This equation is especially suitable for simulating the interfacial dynamics in nonlinear systems, such as phase transformation in alloys and morphological changes of biofilms. It is a typical nonlinear partial differential equation, which can describe the transition from a uniform state to a non-uniform state.
 
-![The prediction of Allen Cahn equation](https://img2.imgtp.com/2024/04/05/OMqP4PA7.png)
+<img src="https://img2.imgtp.com/2024/04/05/OMqP4PA7.png" alt="The prediction of Allen Cahn equation" style="zoom:75%;" />
 
-![The loss of Allen Cahn equation](https://img2.imgtp.com/2024/04/05/o8pNIyXt.png)
+<img src="https://img2.imgtp.com/2024/04/05/o8pNIyXt.png" alt="The loss of Allen Cahn equation" style="zoom:75%;" />
 
 ## Theoretic Background
 
@@ -61,10 +59,6 @@ So, in the general case, we are interested in the semilinear parabolic PDEs.The 
 - Pricing European Financial Derivatives with Different Interest Rates for Borrowing and Lending
 - Multidimensional Burgers-Type PDEs with Explicit Solutions
 - Reaction Diffusion Time Dependent Example PDE with Oscillating Explicit Solutions
-
-#### Deep_BSDE Algorithm
-
-
 
 
 

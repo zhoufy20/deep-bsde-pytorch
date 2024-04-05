@@ -41,11 +41,17 @@ model.solve()
 
 `default_parameters.py :` Configurations for equation construction and training process.
 
+#### Example 
 
+==The Allen Cahn equation== is a mathematical model that describes the evolution of an interface during a phase transition. This equation is especially suitable for simulating the interfacial dynamics in nonlinear systems, such as phase transformation in alloys and morphological changes of biofilms. It is a typical nonlinear partial differential equation, which can describe the transition from a uniform state to a non-uniform state.
+
+![The prediction of Allen Cahn equation](E:\SomeFile\MdPicture\OMqP4PA7.png)
+
+![The loss of Allen Cahn equation](E:\SomeFile\MdPicture\o8pNIyXt-1712304960099-3.png)
 
 ## Theoretic Background
 
-#### Equation
+Based on the backward stochastic differential equation (BSDE) representation of PDEs, we use deep neural network to estimate the solutions and gradients of the equations at the same time. By using the nonlinear Feynman-KAC formula, the solution of the high-dimensional PDEs can be expressed as the solution of the corresponding BSDE equations. Then the numerical problem is expressed as a stochastic control problem, and the gradient operator of the solution function is regarded as a policy function, and this policy function is approximated by a deep neural network, and then the numerical solution of the high-dimensional PDEs is obtained.[2]
 
 So, in the general case, we are interested in the semilinear parabolic PDEs.The following equations of are implemented in this repository:
 
@@ -58,7 +64,7 @@ So, in the general case, we are interested in the semilinear parabolic PDEs.The 
 
 #### Deep_BSDE Algorithm
 
-Based on the backward stochastic differential equation (BSDE) representation of PDEs, we use deep neural network to estimate the solutions and gradients of the equations at the same time. By using the nonlinear Feynman-KAC formula, the solution of the high-dimensional PDEs can be expressed as the solution of the corresponding BSDE equations. Then the numerical problem is expressed as a stochastic control problem, and the gradient operator of the solution function is regarded as a policy function, and this policy function is approximated by a deep neural network, and then the numerical solution of the high-dimensional PDEs is obtained.[2]
+
 
 
 

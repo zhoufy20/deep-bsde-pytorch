@@ -45,8 +45,7 @@ model.solve()
 
 **The Allen Cahn equation** is a mathematical model that describes the evolution of an interface during a phase transition. This equation is especially suitable for simulating the interfacial dynamics in nonlinear systems, such as phase transformation in alloys and morphological changes of biofilms. It is a typical nonlinear partial differential equation, which can describe the transition from a uniform state to a non-uniform state.
 
-<img src="https://img2.imgtp.com/2024/04/05/OMqP4PA7.png" alt="The prediction of Allen Cahn equation">
-
+！[The prediction of Allen Cahn equation](Allen_Cahn_Equation/prediction.png)
 
 ## Theoretic Background
 

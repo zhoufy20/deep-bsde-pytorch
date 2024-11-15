@@ -1,6 +1,8 @@
 # Solving High Dimensional PDEs with BSDEs Using PyTorch
 
-This repository contains Python scripts that implement backward stochastic differential equations (BSDEs) solutions to several partial differential equations in high dimension using Pytorch.  We making an analogy between the BSDE and reinforcement learning with the gradient of the solution playing the role of the policy function, and the loss function given by the error between the prescribed terminal condition and the solution of the BSDE.
+- This repository contains Python scripts that implement solutions to backward stochastic differential equations (BSDEs) for several high-dimensional partial differential equations using PyTorch.
+
+- We draw an analogy between BSDEs and reinforcement learning, where the gradient of the solution serves as the policy function, and the loss function is defined by the discrepancy between the specified terminal condition and the solution of the BSDE.
 
 ## Quick start
 
